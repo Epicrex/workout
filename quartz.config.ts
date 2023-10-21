@@ -3,13 +3,13 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🦑 3D Artist's Handbook",
+    pageTitle: "Sidney's Workout",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
-    baseUrl: "https://epicrex.github.io/3d-artists-handbook",
+    baseUrl: "https://epicrex.github.io/workout",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
